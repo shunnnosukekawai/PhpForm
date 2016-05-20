@@ -1,5 +1,12 @@
-
+<html>
+<head>
+    <link rel="stylesheet" href="form_testcss.css">
+</head>
+<body>
 <form action="form_test2.php" method="get">
+
+    <!--題名-->
+    <p>お問い合わせ</p>
 <!-- 名前-->
 <p>姓：<input type="textbox" name="name1"　></p>
 <p>名：<input type="textbox" name="name2"　></p>
@@ -32,9 +39,10 @@
 </select>
 
 <!--質問-->
-<p>
-質問：<textarea cols="30" rows="5" name="comments">
-</p>
+
+<p>質問：</p>
+<textarea cols="30" rows="5" name="comments">
+
     質問内容
 </textarea>
 
@@ -44,3 +52,5 @@
 
 
 </form>
+</body>
+</html>
