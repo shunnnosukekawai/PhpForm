@@ -6,14 +6,17 @@
     <title>お問い合わせ</title>
 </head>
 <body>
-    <div id="wrapper">
-<form action="form_test2.php" method="post">
+
+<form action="result.php" method="post">
 
     <!--題名-->
+    <div id="boxA">
     <p><h1>お問い合わせ</h1></p>
+</div>
 <!-- 名前-->
-<pre>姓  <input type="textbox" name="name1"　></pre>
-<pre>名  <input type="textbox" name="name2"　></pre>
+<div id="wrapper">
+<p>姓  <input type="textbox" name="name1"　></p>
+<p>名  <input type="textbox" name="name2"　></p>
 <!--性別-->
 <p>性別
 男性   <input type="radio" name="sex" value="男性"　>女性   <input type="radio" name="sex" value="女性"　>不明   <input type="radio" name="sex" value="不明"　></p>
