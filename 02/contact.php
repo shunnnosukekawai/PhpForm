@@ -1,20 +1,22 @@
-<html>
+<!DOCTYPE html>
+<html lang="ja">
 <head>
+    <meta charset="utf-8">
     <link rel="stylesheet" href="form_testcss.css">
+    <title>お問い合わせ</title>
 </head>
 <body>
-<form action="form_test2.php" method="get">
+    <div id="wrapper">
+<form action="form_test2.php" method="post">
 
     <!--題名-->
-    <p>お問い合わせ</p>
+    <p><h1>お問い合わせ</h1></p>
 <!-- 名前-->
-<p>姓：<input type="textbox" name="name1"　></p>
-<p>名：<input type="textbox" name="name2"　></p>
+<pre>姓  <input type="textbox" name="name1"　></pre>
+<pre>名  <input type="textbox" name="name2"　></pre>
 <!--性別-->
-<p>性別</p>
-<p>男性：<input type="radio" name="sex" value="男性"　></p>
-<p>女性：<input type="radio" name="sex" value="女性"　></p>
-<p>不明：<input type="radio" name="sex" value="不明"　></p>
+<p>性別
+男性   <input type="radio" name="sex" value="男性"　>女性   <input type="radio" name="sex" value="女性"　>不明   <input type="radio" name="sex" value="不明"　></p>
 <!--住所-->
 <p>郵便番号：<input type="textbox" name="addressnum"　></p>
 <p>住所：<input type="textbox" name="address"　></p>
@@ -33,7 +35,7 @@
 <p>友達：<input type="checkbox" name="cbx[]" value="友達"></p>
 
 <!--質問カテゴリ-->
-<select name="category">
+<div><select name="category">
     <option>インターネット回線</option>
     <option>キャンペーン</option>
 </select>
@@ -43,14 +45,15 @@
 <p>質問：</p>
 <textarea cols="30" rows="5" name="comments">
 
-    質問内容
+
 </textarea>
 
-    <input type="submit"　>
+    <p><input type="submit"　></p>
 
 
 
-
+</div>
+</div>
 </form>
 </body>
 </html>
