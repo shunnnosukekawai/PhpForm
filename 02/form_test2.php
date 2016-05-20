@@ -25,12 +25,12 @@ echo $_GET["mail2"] . "<br>";
     echo "";
 }
 //どこで知ったか
-$a =array();
-$a[] =$_GET[cbx];
-echo '</p>';
-var_dump($_GET[cbx]);
+foreach($_GET["cbx"] as $key => $value){
+    echo $value . " " ;
+}
+echo  "<br>";
 //質問カテゴリ
 echo $_GET["category"] . "<br>";
 //質問内容""
-echo $_GET["co=>ents"] . "<br>";
+echo $_GET["comments"] . "<br>";
  ?>
