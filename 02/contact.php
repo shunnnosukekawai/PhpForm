@@ -17,9 +17,9 @@
 <!-- 名前-->
 <div id="wrapper">
 
-<p class="name"><label for="name">姓：<span>必須</span> </label>
+<p class="name"><label for="name">姓：<span>必須</span></label>
 <input type="textbox" name="name1"　></p>
-<p>名：<span>必須</span><input type="textbox" name="name2"　></p>
+<p>名：<span>必須</span><input type="textbox" name="name2"></p>
 <!--性別-->
 <div class="sex1">
 <p>性別：<span>必須</span>
@@ -29,7 +29,7 @@
 <p>住所：<span>必須</span><input type="textbox" name="address"　></p>
 </div>
 <!--電話暗号-->
-<p>電話番号：<span>必須</span><input type="textbox" name="phone1"　style="width:100px;"><input type="textbox" name="phone2" width:50px;><input type="textbox" name="phone3" width:50px;>
+<p>電話番号：<span>必須</span><input type="textbox" name="phone1"　class="phone">-<input type="textbox" name="phone2" class="phone">-<input type="textbox" name="phone3" class="phone"></p>
 <!--メールアドレス-->
 <p>メールアドレス：<span>必須</span><input type="textbox" name="mail1">@<input type="textbox" name="mail2"></p>
 
@@ -54,12 +54,7 @@
 
 
 </textarea>
-<main class='container'>
-	<button class='myButt one' typa="submit">
-		<div class='insider'></div>
-	submit
-	</button>
-</main>
+
     <p><input type="submit"　></p>
 
 
@@ -67,6 +62,7 @@
 
 </div>
 </div>
+
 </form>
 </body>
 </html>
