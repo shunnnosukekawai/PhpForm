@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="form_testcss.css">
+    <link rel="stylesheet" href="form_testcss2.css">
     <title>お問い合わせ</title>
 </head>
 <body>
@@ -19,68 +19,69 @@
 
 
 <!-- 名前-->
+<div id="wrappe">
 
-<table class="form" border="1"
-table-layout:fixed; style="width:800px;height:100px;" >
+<table class="form"
+table-layout:fixed; style="width:800px;height:100px;"  >
     <tr>
 <th scope="row" width="250"><label for="name">姓：<span>必須</span></label></th>
 
 
-<td><input type="textbox" name="name1"　></td>
+<td><input type="textbox" name="name1" required　></td>
 </tr>
 <tr>
     <th scope="row" width="250">名：<span>必須</span></th>
-    <td width="550"><input type="textbox" name="name2"></td>
+    <td width="550"><input type="textbox" name="name2" required></td>
 </tr>
 
 </table>
 <!--性別-->
-<table border="1"
+<table
 table-layout:fixed; style="width:800px;height:100px;">
     <tr>
 <th scope="row" width="250">性別：<span>必須</span><th>
-<td width="550">男性  <input type="radio" name="sex" value="男性"　>女性   <input type="radio" name="sex" value="女性"　>不明   <input type="radio" name="sex" value="不明"　></td>
+<td width="550">男性  <input type="radio" name="sex" value="男性"　required>女性   <input type="radio" name="sex" value="女性"　required>不明   <input type="radio" name="sex" value="不明"　required></td>
 </tr>
 
 </table>
 
 
 <!--住所-->
-<table border="1"
+<table
 table-layout:fixed;  style="width:800px;height:100px;">
 <tr>
-<th scope="row" width="250">郵便番号：<span>必須</span><th><td width="550"><input type="textbox" name="addressnum"　></td></tr>
+<th scope="row" width="250">郵便番号：<span>必須</span><th><td width="550"><input type="textbox" name="addressnum"　required></td></tr>
     <tr>
-<th scope="row">住所：<span>必須</span><th><td width="550"><input type="textbox" name="address"　></td></tr>
+<th scope="row">住所：<span>必須</span><th><td width="550"><input type="textbox" name="address" required　></td></tr>
 
 
 
 </table>
 
 <!--電話暗号-->
-<table border="1"
+<table
 table-layout:fixed; style="width:800px;height:100px;">
 <tr>
-    <th scope="row" width="250">電話番号：<span>必須</span><th><td width="550"><input type="textbox" name="phone1" width="100"　>-<input type="textbox" name="phone2" >-<input type="textbox" name="phone3" ></td></tr>
+    <th scope="row" width="250">電話番号：<span>必須</span><th><td width="550"><input type="textbox" name="phone1"　class="phone" required>-<input type="textbox" name="phone2" class="phone" required>-<input type="textbox" name="phone3" class="phone" required></td></tr>
 
 </table>
 
 <!--メールアドレス-->
-<table border="1"
-table-layout:fixed; style="width:800px;height:100px;" >
+<table
+table-layout:fixed; style="width:800px;height:100px;">
 <tr>
-    <th scope="row" width="250">メールアドレス：<span>必須</span><th><td width="550"><input type="textbox" name="mail1">@<input type="textbox" name="mail2"></td></tr>
+    <th scope="row" width="250">メールアドレス：<span>必須</span><th><td width="550"><input type="textbox" name="mail1" required>@<input type="textbox" name="mail2"></td></tr>
 
 </table>
 
 
 <!--　どこで知ったか-->
-<table border="1"
+<table
 table-layout:fixed; style="width:800px;height:100px;">
 <tr>
 <th scope="row" width="250">どこで知りましたか？<span>必須</span></th>
 <td width="550">
-テレビ：<input type="checkbox" name="cbx[]" value="テレビ">
+テレビ：<input type="checkbox" name="cbx[]" value="テレビ" >
 
 インターネット：<input type="checkbox" name="cbx[]" value="インターネット">
 
@@ -95,7 +96,7 @@ table-layout:fixed; style="width:800px;height:100px;">
 
 
 <!--質問カテゴリ-->
-<table border="1"
+<table
 table-layout:fixed; style="width:800px;height:100px;">
 <tr>
     <th scope="row" width="250"> 質問カテゴリ</th>
@@ -110,11 +111,11 @@ table-layout:fixed; style="width:800px;height:100px;">
 
 
 <!--質問-->
-<table border="1"
+<table
 table-layout:fixed; style="width:800px;height:100px;">
 <tr>
     <th scope="row" width="250">質問：</th>
-    <td width="540">
+    <td width="50">
 <textarea cols="30" rows="5"   name="comments" style="width:500px;">
 
 
@@ -129,7 +130,7 @@ table-layout:fixed; style="width:800px;height:100px;">
 
 
 
-
+</div>
 </form>
 </body>
 </html>

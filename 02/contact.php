@@ -17,9 +17,9 @@
 <!-- 名前-->
 <div id="wrapper">
 
-<p class="name"><label for="name">姓：<span>必須</span></label>
+<p class="name"><label for="name">姓：<span>必須</span> </label>
 <input type="textbox" name="name1"　></p>
-<p>名：<span>必須</span><input type="textbox" name="name2"></p>
+<p>名：<span>必須</span><input type="textbox" name="name2"　></p>
 <!--性別-->
 <div class="sex1">
 <p>性別：<span>必須</span>
@@ -62,7 +62,6 @@
 
 </div>
 </div>
-
 </form>
 </body>
 </html>
