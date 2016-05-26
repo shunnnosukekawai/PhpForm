@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -7,9 +8,8 @@
 </head>
 <body>
 
-<form action="result.php" method="post">
-
-
+<form action="result2.php" method="post">
+    
     <!--題名-->
     <div id="boxA">
     <p><h1>お問い合わせ</h1></p>
