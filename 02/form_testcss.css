@@ -1,3 +1,6 @@
+
+
+
 h1 {
 margin: 0 auto;
 width: 200px;
@@ -8,32 +11,7 @@ border: 5px solid FireBrick;
 
     font-size: large;
 }
-body{
-    margin: 0 auto;
-    width: 800px;
 
-    padding: 0;
-
-    background-color: white;
-}
-#boxA{
-    width:700px;
-margin-left:auto;
-margin-right:auto;
-}
-#wrapper{
-    margin:0 auto;
-    width: 600px;
-
-    padding: 70px;
-    border: 5px solid FireBrick;
-        background-color: 	PaleGoldenrod;
-}
-
-p {
-  text-align: left;
- }
-div{text-align: left;}
 input[ type="submit"]{
     background-color: green;
 
@@ -45,5 +23,13 @@ span {
     font-weight: normal; /* (必須) */
  color: white;
  background-color: red;
- padding: 0 0 0 1em;
+
+}
+ #wrappe{
+    margin:0 auto;
+    width: 900px;
+height : 900px;
+    padding: 100px;
+    border: 5px solid FireBrick;
+        background-color: 	PaleGoldenrod;
 }
