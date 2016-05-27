@@ -50,7 +50,7 @@ table-layout:fixed; style="width:800px;height:100px;">
 <table
 table-layout:fixed;  style="width:800px;height:100px;">
 <tr>
-<th scope="row" width="250">郵便番号：<span>必須</span><th><td width="550"><input type="textbox" name="addressnum"　required></td></tr>
+<th scope="row" width="250">郵便番号：<span>必須</span><th><td width="550"><input type="textbox" name="addressnum"　required pattern="\d{3}-\d{4}" maxlength="7"></td></tr>
     <tr>
 <th scope="row">住所：<span>必須</span><th><td width="550"><input type="textbox" name="address" required　></td></tr>
 
@@ -62,7 +62,7 @@ table-layout:fixed;  style="width:800px;height:100px;">
 <table
 table-layout:fixed; style="width:800px;height:100px;">
 <tr>
-    <th scope="row" width="250">電話番号：<span>必須</span><th><td width="550"><input type="textbox" name="phone1"　class="phone" required>-<input type="textbox" name="phone2" class="phone" required>-<input type="textbox" name="phone3" class="phone" required></td></tr>
+    <th scope="row" width="250">電話番号：<span>必須</span><th><td width="550"><input type="textbox" name="phone1"　class="phone" required pattern="^[0-9A-Za-z]+$">-<input type="textbox" name="phone2" class="phone" required pattern="^[0-9A-Za-z]+$">-<input type="textbox" name="phone3" class="phone" required pattern="^[0-9A-Za-z]+$"></td></tr>
 
 </table>
 
