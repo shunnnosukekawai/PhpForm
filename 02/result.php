@@ -141,6 +141,24 @@ echo $_POST["comments"] . "<br>";
 </table>
 
     <input type="submit"　>
+    <?
+
+    // ファイルのパスを変数に格納
+    $filename = 'form.txt';
+
+    // fopenでファイルを開く（'w'は上書きモードで開く）
+    $fp = fopen($filename, 'a+');
+
+    // fwriteで文字列を書き込む
+    fwrite($fp, '1' . $_POSt["name"]);
+
+    // ファイルを閉じる
+    fclose($fp);
+
+    // ファイルを出力する
+
+    ?>
+
 
 
 
