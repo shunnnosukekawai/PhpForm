@@ -140,13 +140,46 @@ echo $_POST["comments"] . "<br>";
 </tr>
 </table>
 
-    <input type="submit"　>
-
 
 
 
 
 </div>
 </form>
+
 </body>
 </html>
+
+    <input type="submit"　>
+    <?php
+$name = $_POST['name1'] . ' ' . $_POST['name2'];
+    // ファイルのパスを変数に格納
+    $filename = 'form.txt';
+
+    // fopenでファイルを開く（'w'は上書きモードで開く）
+    $fp = fopen($filename, 'a+');
+
+    // fwriteで文字列を書き込む
+    fwrite($fp, $_POSt["name"]);
+
+    // ファイルを閉じる
+    fclose($fp);
+
+    // ファイルを出力する
+
+
+    if (isset($_POST['message'])) {
+
+        if ($_POST['message'] != "") {
+
+            $fp = fopen("form.txt", "a+");
+            fwrite($fp, $_POST['message']);
+            fclose($fp);
+
+        }
+
+    }
+
+
+
+    ?>
