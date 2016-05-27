@@ -40,7 +40,7 @@ table-layout:fixed; style="width:800px;height:100px;"  >
 table-layout:fixed; style="width:800px;height:100px;">
     <tr>
 <th scope="row" width="250">性別：<span>必須</span><th>
-<td width="550">男性  <input type="radio" name="sex" value="男性"　required>女性   <input type="radio" name="sex" value="女性"　required>不明   <input type="radio" name="sex" value="不明"　required></td>
+<td width="550"><label>男性  <input type="radio" name="sex" value="男性"　required></label><label>女性   <input type="radio" name="sex" value="女性"　required></label><label>不明   <input type="radio" name="sex" value="不明"　required></label></td>
 </tr>
 
 </table>
@@ -81,13 +81,13 @@ table-layout:fixed; style="width:800px;height:100px;">
 <tr>
 <th scope="row" width="250">どこで知りましたか？<span>必須</span></th>
 <td width="550">
-テレビ：<input type="checkbox" name="cbx[]" value="テレビ" >
+<label>テレビ：<input type="checkbox" name="cbx[]" value="テレビ" ></label>
 
-インターネット：<input type="checkbox" name="cbx[]" value="インターネット">
+<label>インターネット：<input type="checkbox" name="cbx[]" value="インターネット"></label>
 
-雑誌：<input type="checkbox" name="cbx[]" value="雑誌">
+<label>雑誌：<input type="checkbox" name="cbx[]" value="雑誌"></label>
 
-友達：<input type="checkbox" name="cbx[]" value="友達">
+<label>友達：<input type="checkbox" name="cbx[]" value="友達"></label>
 </td>
 </tr>
 
